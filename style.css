@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&display=swap');
+
+*{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-image: url('images/konaha.jpg');
+}
+
+.grid{
+    width: 400px;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-image: url('images/konaha-night.jpg');
+    position: relative;
+    text-align: center;
+}
+
+.doodler{
+    width: 60px;
+    height: 85px;
+    background-image: url('images/shikamaru.png');
+    position: absolute;
+}
+
+.platform{
+    width: 85px;
+    height: 15px;
+    background:linear-gradient(-120deg, #D62121, #C72C2C, #3a1111);
+    position: absolute;
+}
+
+span{
+    font-size: 80px;
+    opacity: 0.5;
+}
+
+.tablero{
+    width: 400px;
+    height: 600px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.btn{
+    border: 0;
+    font-size: 20px;
+    padding: 10px 25px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    background:linear-gradient(-120deg, #D62121, #C72C2C, #3a1111);
+}
+
+.btn:hover{
+    opacity: 0.7;
+}
